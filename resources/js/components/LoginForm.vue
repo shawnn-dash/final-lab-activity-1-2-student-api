@@ -43,6 +43,7 @@
 
 <script setup>
 import { ref } from 'vue';
+import axios from 'axios';
 
 const emit = defineEmits(['login-success']);
 

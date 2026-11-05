@@ -17,7 +17,7 @@
       No students found in the database.
     </div>
 
-    <!-- Table view with v-for -->
+    <!-- Table view -->
     <div v-else class="overflow-x-auto">
       <table class="w-full text-left border-collapse">
         <thead>

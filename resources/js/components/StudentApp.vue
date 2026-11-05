@@ -106,7 +106,7 @@ const handleLogout = async () => {
   try {
     await axios.post('/api/logout');
   } catch (err) {
-    // Ignore logout token expiration errors on client cleanup
+    // Ignore cleanup errors
   } finally {
     token.value = '';
     userRole.value = '';
